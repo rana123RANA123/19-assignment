@@ -1,0 +1,36 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#second{
+    background-color: rgb(25, 34, 49);
+    color: white;
+}
+main{
+    flex: 1 0 auto;
+}
+
+#tag{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+
+}
+footer{
+
+    background-color: black;
+}
+
+#time{
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#nav{
+    background-color: #1B355A;
+}
